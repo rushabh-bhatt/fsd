@@ -1,0 +1,130 @@
+<!-- trekking expedition website -->
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trekkar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+      body {
+        background-image: url("sunset.jpg");
+        background-color: #cccccc;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      p {
+        color: whitesmoke;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      .navbar {
+        background-color: rgb(165, 132, 195);
+      }
+
+      .navbar ul {
+        overflow: auto;
+      }
+
+      .navbar li {
+        float: left;
+        list-style: none;
+        margin: 10px 100px;
+      }
+
+      .navbar li a {
+        padding: 0px 0px;
+        text-decoration: none;
+        color: rgb(49, 44, 122);
+        font-size: 0.5cm;
+      }
+
+      .navbar li a:hover {
+        color: rgb(139, 223, 69);
+      }
+
+      .dropdown {
+        display: none;
+      }
+
+      .navbar ul li:hover .dropdown {
+        display: block;
+        position: absolute;
+        margin-left: -15px;
+        margin-top: 15px;
+        background-color: rgb(255, 255, 0);
+      }
+
+      .navbar ul li:hover .dropdown ul {
+        display: block;
+        margin: 10px;
+      }
+
+      .navbar ul li:hover .dropdown ul li {
+        width: 300px;
+        padding: 10px;
+        border-bottom: 1px dotted #fff;
+        background: transparent;
+        border-radius: 0px;
+        text-align: left;
+      }
+
+      .navbar ul li:hover .dropdown ul li:last-child {
+        border-bottom: none;
+      }
+      .container {
+  border-radius: 5px;
+  background-color: #b70e0e;
+  padding: 20px;
+}
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="home.html" target="_blank">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <a href="#">Destinations <i class="fa fa-caret-down"></i> </a>
+            <div class="dropdown">
+              <ul>
+                <li><a href="#">Kasol</a></li>
+                <li><a href="#">Bhrigu Lake</a></li>
+                <li><a href="#">Himalaya</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="register.html" target="_blank">Register</a></li>
+          <li><a href="contactus.html">Contact us</a></li>
+        </ul>
+        <img src="tent.jpg" alt="img" style="max-width: 64px; max-height: 64px"></img>
+      </nav>
+    </header>
+    <div class="container">
+    <h1 style="color: white; font-family:'Times New Roman', Times, serif">Everyone must trek</h1>
+    <p>
+      Trekking transforms lives. It has changed my life totally. When I see my colleagues at Indiahikes, all of them
+      have been impacted greatly. The transformations have been profound and irreversible. I see it in our trekkers too.
+      I have seen them change professions, careers or start a new life. I have seen them
+      get in and out of relationships, start new projects. These are life-changing experiences. I have seen children
+      building resilience. I have seen families come together. When I see those above 55, I see
+      them rediscover passion and a sense of purpose. These are not small gains. In the mountains new professions, new
+      economies and new businesses have opened up. Our staff no longer go to
+      cities to earn their living. Their income has increased. Above all, they are happiest working in this world.
+      Trekking has been truly transformative.
+    </p>
+    <a href="https://indiahikes.com/" style="font-size: 18px; color: green;">India Hikes website</a><br><br>
+    <a href="https://www.trekmunk.com/" target="_blank" style="font-size: 18px; color: green;">Trekmunk website</a>
+  </div>
+  </body>
+
+</html>
